@@ -11,12 +11,19 @@ export const profile = {
   linkedin: 'https://www.linkedin.com/in/saharadnan',
   github: '',            // e.g. 'https://github.com/yourname' — shown once set
   resumeUrl: '',         // e.g. './Sahar-Adnan-Resume.pdf' placed in public/ — shown once set
-  headline: 'Messy data, made legible.',
-  lead: 'SQL, Tableau, and Power BI reporting for teams that need an answer, not a spreadsheet. Five years across data analytics, data operations, and IT, currently building SQL/Oracle datasets and Power BI dashboards for trading and operations teams at NextEra Energy Resources.',
+  lead: 'I turn messy operational data into reports people actually use. Five years across analytics, data operations, and IT, currently building SQL/Oracle datasets and Power BI dashboards for trading and operations teams at NextEra Energy Resources.',
   contactLead: 'Open to data analyst and data operations roles. The fastest way to reach me is email.',
 };
 
-// The four passes every dataset gets. Shown in the hero diagram and the Method section.
+// The at-a-glance card beside the intro. Keep values short; this is what a recruiter scans first.
+export const facts = [
+  { label: 'Now', value: 'Data Operations Analyst, NextEra Energy Resources' },
+  { label: 'Based in', value: 'West Palm Beach, FL' },
+  { label: 'Tools', value: 'SQL / Oracle, Power BI, Tableau, Excel' },
+  { label: 'Education', value: 'B.S. Computer Engineering, University of North Texas' },
+];
+
+// The four passes every dataset gets. Shown in the Method section.
 export const pipeline = [
   {
     name: 'Sources',
@@ -40,7 +47,7 @@ export const pipeline = [
   },
 ];
 
-// Work. A `metric` draws a small before/after chart; leave it out for a card without one.
+// Work. A `stat` shows one headline number on the card; leave it out for a card without one.
 // `draft: true` hides a card until it is ready.
 export const projects = [
   {
@@ -55,7 +62,7 @@ export const projects = [
     org: 'Dimention X · Data Analyst',
     dates: '2024 – 2025',
     desc: 'Cleaning and preprocessing procedures for the datasets behind stakeholder reporting.',
-    metric: { label: 'Dataset errors', before: 100, after: 75, delta: '−25%' },
+    stat: { value: '−25%', label: 'dataset errors' },
     tools: ['SQL', 'Excel'],
   },
   {
@@ -63,7 +70,7 @@ export const projects = [
     org: 'Dimention X · IT Specialist in Analytics',
     dates: '2023 – 2024',
     desc: 'Large datasets consolidated from multiple systems, so reports stopped disagreeing with each other.',
-    metric: { label: 'Data errors', before: 100, after: 80, delta: '−20%' },
+    stat: { value: '−20%', label: 'data errors' },
     tools: ['SQL', 'Excel'],
   },
   {
@@ -71,7 +78,7 @@ export const projects = [
     org: 'Dimention X',
     dates: '2023',
     desc: 'Technical manuals and sessions on data-analysis software for non-technical staff.',
-    metric: { label: 'Staff proficiency', before: 80, after: 100, delta: '+25%' },
+    stat: { value: '+25%', label: 'staff proficiency' },
     tools: ['Documentation', 'Training'],
   },
   {

@@ -13,6 +13,7 @@ four-stage method, projects, experience, skills, certifications, education,
 languages, and contact links. Edit that file; the layout takes care of itself.
 
 - A project with `draft: true` is not shown. Flip it to `false` when it is ready.
+- A project with a `stat` shows one headline number; leave it out for a card without one.
 - A job with an empty `bullets` list shows only its title and dates.
 - Set `profile.github` and `profile.resumeUrl` when you have them; the links
   appear automatically.
