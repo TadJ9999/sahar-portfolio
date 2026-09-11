@@ -12,7 +12,7 @@ export const profile = {
   github: '',            // e.g. 'https://github.com/yourname' — shown once set
   resumeUrl: '',         // e.g. './Sahar-Adnan-Resume.pdf' placed in public/ — shown once set
   headline: 'Messy data, made legible.',
-  lead: 'SQL, Tableau, and Power BI reporting for teams that need an answer, not a spreadsheet. Five years across data analytics, data operations, and IT, currently on data operations at NextEra Energy Resources.',
+  lead: 'SQL, Tableau, and Power BI reporting for teams that need an answer, not a spreadsheet. Five years across data analytics, data operations, and IT, currently building SQL/Oracle datasets and Power BI dashboards for trading and operations teams at NextEra Energy Resources.',
   contactLead: 'Open to data analyst and data operations roles. The fastest way to reach me is email.',
 };
 
@@ -20,7 +20,7 @@ export const profile = {
 export const pipeline = [
   {
     name: 'Sources',
-    tools: 'SQL · Excel · system exports',
+    tools: 'SQL · Oracle · Excel · system exports',
     desc: 'Pull from the systems people actually use, then reconcile them into one set.',
   },
   {
@@ -35,7 +35,7 @@ export const pipeline = [
   },
   {
     name: 'Report',
-    tools: 'Tableau · Power BI · Excel',
+    tools: 'Power BI · Tableau · Excel',
     desc: 'Dashboards and reports that non-technical teams read without a walkthrough.',
   },
 ];
@@ -43,6 +43,13 @@ export const pipeline = [
 // Work. A `metric` draws a small before/after chart; leave it out for a card without one.
 // `draft: true` hides a card until it is ready.
 export const projects = [
+  {
+    title: 'Energy-market reporting for trading and operations',
+    org: 'NextEra Energy Resources · Data Operations Analyst',
+    dates: '2026 – present',
+    desc: 'SQL/Oracle datasets and automated Power BI dashboards that track KPIs for trading and operations teams, plus analysis of energy-market and operational data for leadership.',
+    tools: ['SQL', 'Oracle', 'Power BI'],
+  },
   {
     title: 'Cleaner production data',
     org: 'Dimention X · Data Analyst',
@@ -74,14 +81,6 @@ export const projects = [
     desc: 'Tableau dashboards and reports, plus Excel pivot-table models, to track and communicate key metrics.',
     tools: ['Tableau', 'Excel'],
   },
-  {
-    title: 'Data operations at NextEra Energy Resources',
-    org: 'NextEra Energy Resources · Data Operations Analyst',
-    dates: '2026 – present',
-    desc: 'TODO: what the data is, who uses it, and one result with a number.',
-    tools: ['SQL', 'Power BI'],
-    draft: true,
-  },
 ];
 
 export const experience = [
@@ -91,7 +90,11 @@ export const experience = [
     place: 'Juno Beach, FL',
     dates: 'Jan 2026 – Present',
     bullets: [
-      // TODO: add two or three bullets. What you own day to day, one result with a number, the tools.
+      'Analyze energy-market and operational data to identify trends, risks, and cost-saving opportunities, with clear recommendations to leadership.',
+      'Build and maintain SQL/Oracle datasets and automated Power BI dashboards that track KPIs for trading and operations teams.',
+      'Lead cross-functional meetings with trading, IT, and finance to gather requirements, resolve issues, and drive process improvements.',
+      'Manage small project teams, set priorities, and monitor progress so reporting and system enhancements ship on time.',
+      'Document workflows and implement process optimizations that cut manual effort and reduce operational risk.',
     ],
   },
   {
@@ -150,9 +153,9 @@ export const experience = [
 ];
 
 export const skillGroups = [
-  { name: 'Analysis and BI', items: ['SQL', 'Tableau', 'Power BI', 'Excel (pivot tables)', 'Data visualization', 'Dashboards and reporting'] },
-  { name: 'Data operations', items: ['Data pipelines', 'Data cleaning and preprocessing', 'Multi-source consolidation', 'Data quality checks', 'ETL'] },
-  { name: 'Tools and IT', items: ['Jira', 'Windows administration', 'Networking', 'User database administration', 'Technical documentation', 'Training'] },
+  { name: 'Analysis and BI', items: ['SQL', 'Oracle', 'Power BI', 'Tableau', 'Excel (pivot tables)', 'Data visualization', 'Dashboards and reporting'] },
+  { name: 'Data operations', items: ['Data pipelines', 'Data cleaning and preprocessing', 'Multi-source consolidation', 'Data quality checks', 'ETL', 'Workflow documentation'] },
+  { name: 'Delivery and IT', items: ['Jira', 'Requirements gathering', 'Project coordination', 'Cross-functional coordination', 'Windows administration', 'Networking', 'Training'] },
 ];
 
 export const certs = [
